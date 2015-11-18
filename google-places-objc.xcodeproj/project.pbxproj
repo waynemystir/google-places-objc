@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B08252131BFA33B60087148F /* AppEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = B08252121BFA33B60087148F /* AppEnvironment.m */; };
+		B0FC756F1BEDA49A005B0945 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FC756E1BEDA49A005B0945 /* main.m */; };
+		B0FC75721BEDA49A005B0945 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FC75711BEDA49A005B0945 /* AppDelegate.m */; };
+		B0FC75751BEDA49A005B0945 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FC75741BEDA49A005B0945 /* ViewController.m */; };
+		B0FC757A1BEDA49A005B0945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0FC75791BEDA49A005B0945 /* Assets.xcassets */; };
+		B0FC757D1BEDA49A005B0945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0FC757B1BEDA49A005B0945 /* LaunchScreen.storyboard */; };
+		B0FC75891BEDA559005B0945 /* PlacesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FC75861BEDA559005B0945 /* PlacesTableViewCell.m */; };
+		B0FC758A1BEDA559005B0945 /* PlacesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0FC75871BEDA559005B0945 /* PlacesTableViewCell.xib */; };
+		B0FC758B1BEDA559005B0945 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0FC75881BEDA559005B0945 /* View.xib */; };
+		B0FC758F1BEDA5BA005B0945 /* LoadGoogleData.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FC758E1BEDA5BA005B0945 /* LoadGoogleData.m */; };
+		B0FC759B1BEDA64A005B0945 /* GoogleAutocompletePlace.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FC75921BEDA64A005B0945 /* GoogleAutocompletePlace.m */; };
+		B0FC759C1BEDA64A005B0945 /* GoogleAutocompleteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FC75941BEDA64A005B0945 /* GoogleAutocompleteResponse.m */; };
+		B0FC759D1BEDA64A005B0945 /* GooglePlace.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FC75961BEDA64A005B0945 /* GooglePlace.m */; };
+		B0FC759E1BEDA64A005B0945 /* NetworkResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FC75981BEDA64A005B0945 /* NetworkResponse.m */; };
+		B0FC759F1BEDA64A005B0945 /* Places.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FC759A1BEDA64A005B0945 /* Places.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B08252111BFA33B60087148F /* AppEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppEnvironment.h; sourceTree = "<group>"; };
+		B08252121BFA33B60087148F /* AppEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppEnvironment.m; sourceTree = "<group>"; };
+		B0FC756A1BEDA49A005B0945 /* google-places-objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "google-places-objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0FC756E1BEDA49A005B0945 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0FC75701BEDA49A005B0945 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "google-places-objc/App/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		B0FC75711BEDA49A005B0945 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "google-places-objc/App/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		B0FC75731BEDA49A005B0945 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B0FC75741BEDA49A005B0945 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0FC75791BEDA49A005B0945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0FC757C1BEDA49A005B0945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0FC757E1BEDA49A005B0945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0FC75851BEDA559005B0945 /* PlacesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacesTableViewCell.h; sourceTree = "<group>"; };
+		B0FC75861BEDA559005B0945 /* PlacesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesTableViewCell.m; sourceTree = "<group>"; };
+		B0FC75871BEDA559005B0945 /* PlacesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlacesTableViewCell.xib; sourceTree = "<group>"; };
+		B0FC75881BEDA559005B0945 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		B0FC758D1BEDA5BA005B0945 /* LoadGoogleData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadGoogleData.h; sourceTree = "<group>"; };
+		B0FC758E1BEDA5BA005B0945 /* LoadGoogleData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadGoogleData.m; sourceTree = "<group>"; };
+		B0FC75911BEDA64A005B0945 /* GoogleAutocompletePlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleAutocompletePlace.h; sourceTree = "<group>"; };
+		B0FC75921BEDA64A005B0945 /* GoogleAutocompletePlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleAutocompletePlace.m; sourceTree = "<group>"; };
+		B0FC75931BEDA64A005B0945 /* GoogleAutocompleteResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleAutocompleteResponse.h; sourceTree = "<group>"; };
+		B0FC75941BEDA64A005B0945 /* GoogleAutocompleteResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleAutocompleteResponse.m; sourceTree = "<group>"; };
+		B0FC75951BEDA64A005B0945 /* GooglePlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooglePlace.h; sourceTree = "<group>"; };
+		B0FC75961BEDA64A005B0945 /* GooglePlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooglePlace.m; sourceTree = "<group>"; };
+		B0FC75971BEDA64A005B0945 /* NetworkResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkResponse.h; sourceTree = "<group>"; };
+		B0FC75981BEDA64A005B0945 /* NetworkResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkResponse.m; sourceTree = "<group>"; };
+		B0FC75991BEDA64A005B0945 /* Places.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Places.h; sourceTree = "<group>"; };
+		B0FC759A1BEDA64A005B0945 /* Places.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Places.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0FC75671BEDA49A005B0945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B06C03291BFACE3D00E2C1B5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B0FC75731BEDA49A005B0945 /* ViewController.h */,
+				B0FC75741BEDA49A005B0945 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B08252101BFA330B0087148F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B0FC75701BEDA49A005B0945 /* AppDelegate.h */,
+				B0FC75711BEDA49A005B0945 /* AppDelegate.m */,
+				B08252111BFA33B60087148F /* AppEnvironment.h */,
+				B08252121BFA33B60087148F /* AppEnvironment.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B0FC75611BEDA49A005B0945 = {
+			isa = PBXGroup;
+			children = (
+				B0FC756C1BEDA49A005B0945 /* google-places-objc */,
+				B0FC756B1BEDA49A005B0945 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0FC756B1BEDA49A005B0945 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0FC756A1BEDA49A005B0945 /* google-places-objc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0FC756C1BEDA49A005B0945 /* google-places-objc */ = {
+			isa = PBXGroup;
+			children = (
+				B08252101BFA330B0087148F /* App */,
+				B0FC75901BEDA62A005B0945 /* Models */,
+				B0FC758C1BEDA593005B0945 /* Classes */,
+				B0FC75841BEDA539005B0945 /* Views */,
+				B06C03291BFACE3D00E2C1B5 /* Controllers */,
+				B0FC75791BEDA49A005B0945 /* Assets.xcassets */,
+				B0FC757B1BEDA49A005B0945 /* LaunchScreen.storyboard */,
+				B0FC757E1BEDA49A005B0945 /* Info.plist */,
+				B0FC756D1BEDA49A005B0945 /* Supporting Files */,
+			);
+			path = "google-places-objc";
+			sourceTree = "<group>";
+		};
+		B0FC756D1BEDA49A005B0945 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0FC756E1BEDA49A005B0945 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0FC75841BEDA539005B0945 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0FC75851BEDA559005B0945 /* PlacesTableViewCell.h */,
+				B0FC75861BEDA559005B0945 /* PlacesTableViewCell.m */,
+				B0FC75871BEDA559005B0945 /* PlacesTableViewCell.xib */,
+				B0FC75881BEDA559005B0945 /* View.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B0FC758C1BEDA593005B0945 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B0FC758D1BEDA5BA005B0945 /* LoadGoogleData.h */,
+				B0FC758E1BEDA5BA005B0945 /* LoadGoogleData.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B0FC75901BEDA62A005B0945 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B0FC75911BEDA64A005B0945 /* GoogleAutocompletePlace.h */,
+				B0FC75921BEDA64A005B0945 /* GoogleAutocompletePlace.m */,
+				B0FC75931BEDA64A005B0945 /* GoogleAutocompleteResponse.h */,
+				B0FC75941BEDA64A005B0945 /* GoogleAutocompleteResponse.m */,
+				B0FC75951BEDA64A005B0945 /* GooglePlace.h */,
+				B0FC75961BEDA64A005B0945 /* GooglePlace.m */,
+				B0FC75971BEDA64A005B0945 /* NetworkResponse.h */,
+				B0FC75981BEDA64A005B0945 /* NetworkResponse.m */,
+				B0FC75991BEDA64A005B0945 /* Places.h */,
+				B0FC759A1BEDA64A005B0945 /* Places.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0FC75691BEDA49A005B0945 /* google-places-objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0FC75811BEDA49A005B0945 /* Build configuration list for PBXNativeTarget "google-places-objc" */;
+			buildPhases = (
+				B0FC75661BEDA49A005B0945 /* Sources */,
+				B0FC75671BEDA49A005B0945 /* Frameworks */,
+				B0FC75681BEDA49A005B0945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "google-places-objc";
+			productName = "google-places-objc";
+			productReference = B0FC756A1BEDA49A005B0945 /* google-places-objc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0FC75621BEDA49A005B0945 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Waynemystir;
+				TargetAttributes = {
+					B0FC75691BEDA49A005B0945 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = B0FC75651BEDA49A005B0945 /* Build configuration list for PBXProject "google-places-objc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0FC75611BEDA49A005B0945;
+			productRefGroup = B0FC756B1BEDA49A005B0945 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0FC75691BEDA49A005B0945 /* google-places-objc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0FC75681BEDA49A005B0945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FC758B1BEDA559005B0945 /* View.xib in Resources */,
+				B0FC757D1BEDA49A005B0945 /* LaunchScreen.storyboard in Resources */,
+				B0FC758A1BEDA559005B0945 /* PlacesTableViewCell.xib in Resources */,
+				B0FC757A1BEDA49A005B0945 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0FC75661BEDA49A005B0945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FC759C1BEDA64A005B0945 /* GoogleAutocompleteResponse.m in Sources */,
+				B0FC75751BEDA49A005B0945 /* ViewController.m in Sources */,
+				B0FC759D1BEDA64A005B0945 /* GooglePlace.m in Sources */,
+				B0FC758F1BEDA5BA005B0945 /* LoadGoogleData.m in Sources */,
+				B0FC759B1BEDA64A005B0945 /* GoogleAutocompletePlace.m in Sources */,
+				B0FC759E1BEDA64A005B0945 /* NetworkResponse.m in Sources */,
+				B0FC75721BEDA49A005B0945 /* AppDelegate.m in Sources */,
+				B0FC759F1BEDA64A005B0945 /* Places.m in Sources */,
+				B0FC756F1BEDA49A005B0945 /* main.m in Sources */,
+				B08252131BFA33B60087148F /* AppEnvironment.m in Sources */,
+				B0FC75891BEDA559005B0945 /* PlacesTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0FC757B1BEDA49A005B0945 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0FC757C1BEDA49A005B0945 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0FC757F1BEDA49A005B0945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0FC75801BEDA49A005B0945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0FC75821BEDA49A005B0945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "google-places-objc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "waynemystir.google-places-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0FC75831BEDA49A005B0945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "google-places-objc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "waynemystir.google-places-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0FC75651BEDA49A005B0945 /* Build configuration list for PBXProject "google-places-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0FC757F1BEDA49A005B0945 /* Debug */,
+				B0FC75801BEDA49A005B0945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0FC75811BEDA49A005B0945 /* Build configuration list for PBXNativeTarget "google-places-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0FC75821BEDA49A005B0945 /* Debug */,
+				B0FC75831BEDA49A005B0945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0FC75621BEDA49A005B0945 /* Project object */;
+}
